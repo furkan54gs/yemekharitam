@@ -1,0 +1,86 @@
+﻿@model MvcCF5.Models.Supplier
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<section id="main-content">
+    <section class="wrapper site-min-height">
+        <h3>Tedarikçi Düzenleme</h3>
+        <div class="content-panel">
+            <div class="form-panel">
+                <div class="form">
+                    <form class="cmxform form-horizontal style-form" id="signupForm" method="post" action="">
+                        <div class="form-group ">
+                            <label for="name" class="control-label col-lg-1">Adı</label>
+                            <div class="col-lg-5">
+                                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <label for="distance" class="control-label col-lg-1">Max Uzaklık</label>
+                            <div class="col-lg-2">
+                                @Html.EditorFor(model => model.distance, new { htmlAttributes = new { @class = "form-control" } })
+                            </div>
+                            <label for="tel" class="control-label col-lg-1">Tel</label>
+                            <div class="col-lg-2">
+                                @Html.EditorFor(model => model.Tel, new { htmlAttributes = new { @class = "form-control" } })
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <label for="supplier" class="control-label col-lg-1">Enlem</label>
+                            <div class="col-lg-2">
+                                @Html.EditorFor(model => model.latitude, new { htmlAttributes = new { @class = "form-control" } })
+                            </div>
+                            <label for="supplier" class="control-label col-lg-1">Boylam</label>
+                            <div class="col-lg-2">
+                                @Html.EditorFor(model => model.longtitude, new { htmlAttributes = new { @class = "form-control" } })
+                            </div>
+                           
+                        </div>
+                        <div class="form-group ">
+                            <label for="image" class="control-label col-lg-1">Resim</label>
+                            <div class="col-lg-5">
+                                @Html.EditorFor(model => model.Image, new { htmlAttributes = new { @class = "form-control" } })
+                            </div>
+                        </div>
+
+                        <div class="form-group ">
+                            <label for="status" class="control-label col-lg-1 ">Durum</label>
+                            <div class="col-lg-2">
+                                @Html.DropDownListFor(model => model.Status, new List<SelectListItem>
+    {
+                                new SelectListItem{ Text="Aktif", Value = "True" },
+                                new SelectListItem{ Text="Pasif", Value = "False" },}, new { @class = "form-control" })
+                            </div>
+                            <label for="date" class="control-label col-lg-1">Tarih</label>
+                            <div class="col-lg-2">
+                                @Html.EditorFor(model => model.Date, new { htmlAttributes = new { @class = "form-control" } })
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <label for="address" class="control-label col-lg-1">Adres</label>
+                            <div class="col-lg-5">
+                                @Html.TextAreaFor(model => model.Address, new { @class = "form-control", rows = "4" })
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <label for="detail" class="control-label col-lg-1">Detay</label>
+                            <div class="col-lg-5">
+                                @Html.TextAreaFor(model => model.Detail, new { @class = "form-control", rows = "4" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-offset-1 col-lg-5">
+                                <button class="btn btn-theme" type="submit">Kaydet</button>
+                                <a href="@Url.Action("Index","Supplier")" class="btn btn-theme04" type="button">Geri</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+

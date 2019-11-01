@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Admin Panel";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<script>
+    window.onload = function () {
+
+        var chart = new CanvasJS.Chart("chartContainer", {
+            animationEnabled: true,
+            theme: "light2", // "light1", "dark1", "dark2"
+            exportEnabled: true,
+            title: {
+                text: "Site Veri Grafiği"
+            },
+            data: [{
+                type: "column",
+                dataPoints: [
+                    { label: "Siparişler", y: @ViewBag.o },
+                    { label: "Ürünler", y: @ViewBag.p },
+                    { label: "Tedarikçiler", y: @ViewBag.s },
+                    { label: "Kategoriler", y: @ViewBag.c },
+                    { label: "Üyeler", y: @ViewBag.u },
+                    { label: "Mesajlar", y: @ViewBag.m },
+                    { label: "Yorumlar", y: @ViewBag.y },
+                ]
+            }]
+        });
+        chart.render();
+
+    }
+</script>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+
+
+<section id="main-content">
+    <section class="wrapper site-min-height">
+        <h3><i class="fa fa-angle-right"></i>Admin Paneli</h3>
+        <div class="row mt">
+            <div class="col-lg-12">
+
+                <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+
+            </div>
+        </div>
+    </section>
+    <!-- /wrapper -->
+</section>
+

@@ -1,0 +1,79 @@
+﻿@{
+    ViewBag.Title = "Ara";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container" style="min-height:530px;margin-top:50px">
+    <div class="bodyInner">
+        <h3>Arama Sonucu</h3>
+        @if (ViewBag.supp != null)
+        {
+            <div style="height:auto">
+                <div class="row">
+                    <table style="width:100%">
+                        @foreach (var item in ViewBag.supp)
+                        {
+                            <div class="col-lg-4" style="text-align:center">
+                                <img width="250" src="~/Content/images/@item.Image" alt="">
+                                <h4>@item.Name</h4>
+                                @if (item.Status == true)
+                                {
+                                    <p><a class="btn btn-success" href="@Url.Action("SupplierDetail","Home", new { id=item.Id })" role="button">Ayrıntılar</a></p>}
+                                else
+                                {
+                                    <p><a class="btn btn-danger" role="button">Kapalı :(</a></p>}
+                            </div>
+                        }
+                    </table>
+                </div>
+            </div>
+        }
+        @if (ViewBag.prod !=null)
+        {
+            <div style="height:auto">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <table style="width:100%">
+                            @foreach (var item in ViewBag.prod)
+                            {
+                            <tr>
+                                <td><b>@item.Name</b></td>
+                                <td><img src="~/Content/images/@item.Image" width="150"></td>
+                                <td>
+                                    @if (item.Status == true)
+                                    {
+                                        <h4 style="color:green">Stokta</h4>}
+                                    else
+                                    {
+                                        <h4 style="color:red">Tükendi</h4>}
+                                </td>
+                                <td>
+                                    <b>@item.SellPrice ₺ &emsp;</b>
+                                </td>
+                                <td>
+                                    <form action="@Url.Action("AddShopCart","Order")" method="get">
+                                        <input name="id" value="@item.Id" hidden />
+                                        <input name="quantity" value="1" hidden />
+                                        <button class="btn btn-success" type="submit"> Sepete Ekle</button>
+                                    </form>
+                                </td>
+                                <td>
+                                    <a class="btn btn-primary" href="@Url.Action("SupplierDetail","Home", new { id=item.SupplierId })" role="button">Restorana git </a>
+                                </td>
+                                <td>
+                                    <a class="btn btn-warning" href="@Url.Action("ProductDetail","Home", new { id=item.Id })" role="button">Detay </a>
+                                </td>
+
+
+                            </tr>
+                            }
+                        </table>
+                    </div>
+                </div>
+            </div>
+        }
+        @if (ViewBag.message != null)
+        {
+            <h4>@ViewBag.message</h4>
+        }
+    </div>
+</div>

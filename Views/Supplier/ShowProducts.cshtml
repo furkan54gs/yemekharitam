@@ -1,0 +1,161 @@
+﻿@model IEnumerable<MvcCF5.Models.Product>
+
+@{
+    ViewBag.Title = "Ürünlerim";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="container" style="min-height:530px;margin-top:50px">
+    <br />
+    <div class="row">
+        <div class="col-md-12">
+            <h3 style="text-align:left">Ürünlerim</h3>
+
+            <br />
+            <a href="javascript:openWin('@Url.Action("Create","Product")','','toolbar=no,location=no,directories=0,status=no,top100,left=200,menuBar=no,scrollBars=no,resizable=no,width=600,height=600');"  class="btn btn-sm btn-primary">
+              Yeni Ürün +
+            </a>
+            @if (Model.Count() != 0)
+            {
+                <table class="table">
+                    <tr style="text-align:center">
+                        <th>
+
+                        </th>
+                        <th>
+                            @Html.DisplayName("Id")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Görsel")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Ürün Adı")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Adet")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Fiyatı")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Durumu")
+                        </th>
+                        <th>
+                            Düzenle
+                        </th>
+                        <th>
+                            Kaldır
+                        </th>
+                    </tr>
+
+
+                    @foreach (var item in Model)
+                    {
+                        <tr id="row_@item.Id">
+                            <td></td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Id)
+                            </td>
+                            <td>
+                                <a href="javascript:openWin('@Url.Action("ImageUpload","Product",new { id=item.Id})','','toolbar=no,location=no,directories=0,status=no,top100,left=200,menuBar=no,scrollBars=no,resizable=no,width=600,height=600');">
+
+                                    @if (item.Image == null)
+                                    {
+
+                                        <img height="35" src="~/Content/admin/img/addimage.png">
+
+                                    }
+                                    else
+                                    {
+                                        <img height="35" src="~/Content/images/@item.Image">
+                                    }
+                                </a>
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Amount)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.SellPrice)
+                            </td>
+                            <td>
+                                @if (item.Status == true)
+                                {
+                                    <b style="color:green">Stokta</b>}
+                                else
+                                {
+                                    <b style="color:red">Tükendi</b>}
+                            </td>
+                            <td>
+                                <a href="javascript:openWin('@Url.Action("Edit","Product",new { id=item.Id})','','toolbar=no,location=no,directories=0,status=no,top100,left=200,menuBar=no,scrollBars=no,resizable=no,width=600,height=600');"
+                                   class="btn btn-info">
+                                    Düzenle
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#"
+                                   class="btn btn-danger"
+                                   onclick="ConfirmDelete(@item.Id)">Kaldır</a>
+                            </td>
+                        </tr>
+
+                    }
+                </table>
+                <hr />
+            }
+            else
+            {
+                <h3>Sahip olduğunuz ürün bulunmamakta.</h3>
+            }
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modalim">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" class="close" data-dismiss="modal">&times;</a>
+                <h4 class="modal-title">Sil</h4>
+            </div>
+            <div class="modal-body">
+                <h5>Silmek istediğinizden emin misiniz?</h5>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-default" data-dismiss="modal">Iptal</a>
+                <a href="#" class="btn btn-success" onclick="Delete()">Onay</a>
+            </div>
+        </div>
+    </div>
+</div>
+<input type="hidden" id="Id" />
+
+<SCRIPT language="JavaScript" type="text/javascript">
+    function openWin(windowURL, windowName, windowFeatures) {
+        window.open(windowURL, windowName, windowFeatures);
+    }
+</SCRIPT>
+<script>
+    var ConfirmDelete = function (id) {
+        $("#Id").val(id);
+        $("#modalim").modal('show');
+    }
+    var Delete = function () {
+        var pId = $("#Id").val();
+        $.ajax({
+
+            type: "POST",
+            url: "/Product/Delete",
+            data: { id: pId },
+            success: function (result) {
+
+                $("#modalim").modal("hide");
+                $("#row_" + pId).remove();
+            }
+        })
+    }
+</script>
+

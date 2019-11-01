@@ -1,0 +1,33 @@
+﻿@model IEnumerable<MvcCF5.Models.Product>
+
+<div class="container">
+    <div class="row">
+        <div class="MultiCarousel" data-items="1,2,2,3" data-slide="2" id="MultiCarousel" data-interval="1000">
+            <div style="text-align:right">
+                <a href="@Url.Action("Ara", "Home", new { search="All", option="Ürün" })">Tümünü Göster</a>
+            </div>
+
+            <div class="MultiCarousel-inner">
+                @foreach (var item in Model)
+                {
+                    <form action="@Url.Action("AddShopCart","Order")" method="get">
+                        <div class="item">
+                            <div class="pad15">
+                                <input name="id" value="@item.Id" hidden />
+                                <input name="quantity" value="1" hidden />
+                                <p><a href="@Url.Action("ProductDetail","Home",new {item.Id})"><img width="270" height="203" src="~/Content/images/@item.Image" alt=""></a></p>
+                                <p class="lead">@item.Name</p>
+                                <p>
+                                    <button class="btn btn-success" type="submit"> Sepete Ekle @item.SellPrice ₺ </button>
+                                </p>
+                            </div>
+                        </div>
+                    </form>
+                }
+            </div>
+
+            <button class="btn btn-lg btn-success leftLst"><</button>
+            <button class="btn btn-lg btn-success rightLst">></button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,93 @@
+﻿@model IEnumerable<MvcCF5.Models.Product>
+@{
+    Layout = null;
+    <link href="~/Content/admin/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--external css-->
+    <link href="~/Content/admin/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="~/Content/admin/css/style.css" rel="stylesheet">
+    <link href="~/Content/admin/css/style-responsive.css" rel="stylesheet">
+}
+
+
+
+<section id="main-content">
+    <section class="wrapper">
+        <div class="row mt">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="showback">
+                    <table class="table">
+                        <tr style="font-weight:bold;">
+                            <th>
+                                @Html.DisplayName("Adı")
+                            </th>
+                            <th>
+                                @Html.DisplayName("Miktar")
+                            </th>
+                            <th>
+                                @Html.DisplayName("Fiyat")
+
+                            </th>
+                            <th>
+                                @Html.DisplayName("S.Fiyat")
+                            </th>
+                            <th>
+                                @Html.DisplayName("Prsyon(gr)")
+
+                            </th>
+                            <th>
+                                @Html.DisplayName("Detay")
+
+                            </th>
+                            <th>
+                                @Html.DisplayName("Tarih")
+
+                            </th>
+                            <th>
+                                @Html.DisplayName("Durum")
+
+                            </th>
+
+                        </tr>
+
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Amount)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Price)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.SellPrice)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Weight)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Detail)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Date)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Status)
+                                </td>
+                            </tr>
+                        }
+
+                    </table>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+
+

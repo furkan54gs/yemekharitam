@@ -1,0 +1,164 @@
+﻿@model MvcCF5.Models.UserAccount
+
+@{
+    ViewBag.Title = "Kullanıcı Bilgileri";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <style>
+        #map {
+            height: 400px;
+            width: 450px;
+        }
+    </style>
+}
+
+<div class="container">
+    <div class="row">
+        <div class="column">
+            <div class="form-horizontal">
+                <div class="container" style="min-height:530px;margin-top:50px">
+                    <div class="bodyInner">
+                        <h3>Üye Bilgileri</h3>
+                        <hr />
+
+
+                        @if (ViewBag.Img == null)
+                        {
+                            <div class="form-group">
+                                <div class="col-md-5" style="margin-left:15%">
+                                    <a href="javascript:openWin('@Url.Action("UserImgUpload","Home",new { id=Model.Id})','','toolbar =no,location =no,directories =0,status =no,top100,left =200,menuBar =no,scrollBars =no,resizable =no,width =600,height =600');"><img width="200" src="~/Content/themes/assets/images/indir.png"></a>
+                                </div>
+                            </div>
+                            <br />
+
+                        }
+                        else
+                        {
+                            <div class="form-group">
+                                <div class="col-md-5" style="margin-left:15%">
+                                    <a href="javascript:openWin('@Url.Action("UserImgUpload","Home",new { id=Model.Id})','','toolbar=no,location=no,directories=0,status=no,top100,left=200,menuBar=no,scrollBars=no,resizable=no,width=600,height=600');"> <img width="200" src="~/Content/images/@ViewBag.Img" /></a>
+                                </div>
+                            </div>
+                            <br />
+                        }
+
+
+
+
+                        <div class="form-group">
+                            @if (Session["Role"].ToString() == "Customer" || Session["Role"].ToString() == "Admin")
+                            {
+                                @Html.LabelFor(model => model.Name, "Adı-Soyadı", htmlAttributes: new { @class = "control-label col-md-2" })
+                            }
+                            else
+                            {
+                                @Html.LabelFor(model => model.Name, "Kurum Adı", htmlAttributes: new { @class = "control-label col-md-2" })
+                            }
+                            <div class="col-md-2" style="padding-top:7px; color:#D70C0C;">
+                                @Html.DisplayFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                            </div>
+                            @Html.LabelFor(model => model.Role, "Rolü", htmlAttributes: new { @class = "control-label col-md-1" })
+                            <div class="col-md-2" style="padding-top:7px; color:#D70C0C;">
+                                @Html.DisplayFor(model => model.Role, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-5">
+                                <p>@Model.Email</p>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Tel, "Telefon", htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-5">
+                                @Html.DisplayFor(model => model.Tel, new { htmlAttributes = new { @class = "form-control" } })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @if (Model.Role == "Supplier")
+                            {
+                                @Html.LabelFor(model => model.Distance, "Max Sipariş Uzaklığı", htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-1">
+                                    @Html.DisplayFor(model => model.Distance, new { htmlAttributes = new { @class = "form-control", placeholder = "km" } })
+                                </div>
+                            }
+                        </div>
+
+                        @if (Model.Role == "Supplier")
+                        {
+                            <div class="form-group">
+                                @Html.Label("detail", "Şirket Detayı", htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-5">
+                                    <p name="detail">@ViewBag.suppDetail</p>
+                                    @*@Html.TextArea("detail", new { @class = "form-control",value= ViewBag.suppDetail })*@
+                                </div>
+                            </div>
+                        }
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Address, "Açık Adres", htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-5">
+                                @Html.DisplayFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })
+                            </div>
+                            <br />
+                            <div class="col-md-5">
+                                <br />
+                                <br />
+                                <a href="@Url.Action("CustomerInform","Home")" class="btn btn-warning">Düzenle</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div style="position:absolute;top:200px;right:100px;" id="map"></div>
+        </div>
+    </div>
+</div>
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXx4aEGCsJv_BedqPOehaxCjyVT9i25ls&callback=initMap"
+        async defer></script>
+<script type="text/javascript">
+        var map;
+
+        function initMap() {
+
+
+            var x = '@Model.Latitude';
+            var y = '@Model.Longtitude';
+
+            x = x.replace(',', '.');
+            y = y.replace(',', '.');
+
+            var latitude = parseFloat(x);
+            var longitude = parseFloat(y);
+
+            var myLatLng = { lat: latitude, lng: longitude };
+
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: myLatLng,
+                zoom: 13,
+                disableDoubleClickZoom: true,
+            });
+            var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                title: latitude + ', ' + longitude
+            });
+
+        }
+</script>
+
+
+<SCRIPT language="JavaScript">
+    function openWin(windowURL, windowName, windowFeatures) {
+        window.open(windowURL, windowName, windowFeatures);
+    }
+</SCRIPT>

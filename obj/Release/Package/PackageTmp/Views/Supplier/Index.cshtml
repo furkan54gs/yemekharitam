@@ -1,0 +1,136 @@
+﻿@model IEnumerable<MvcCF5.Models.Supplier>
+
+@{
+    ViewBag.Title = "Tedarikçiler";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<section id="main-content">
+    <section class="wrapper site-min-height">
+        <br>
+        <a href="@Url.Action("Create","Supplier")" class="fa fa-plus-square btn btn-primary">&nbsp; Tedarikçi Ekleme</a>
+
+        <div class="table100 ver1 m-b-110">
+            <table data-vertable="ver1">
+                <thead>
+                    <tr class="row100 head">
+                        <th class="column100 column1" data-column="column1">Id</th>
+                        <th class="column100 column2" data-column="column2">İsİm</th>
+                        <th class="column100 column2" data-column="column2">Enlm</th>
+                        <th class="column100 column2" data-column="column2">Boylm</th>
+                        <th class="column100 column5" data-column="column5">Konum</th>
+                        <th class="column100 column6" data-column="column6">Rsm</th>
+                        <th class="column100 column7" data-column="column7">Durum</th>
+                        <th class="column100 column3" data-column="column3">Ürün</th>
+                        <th class="column100 column12" data-column="column12">Düzenle</th>
+                        <th class="column100 column13" data-column="column13">Sil</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                    <tr id="row_@item.Id" class="row100">
+                        <td class="column100 column1" data-column="column1">@Html.DisplayFor(modelItem => item.Id)</td>
+                        <td class="column100 column2" data-column="column2">@Html.DisplayFor(modelItem => item.Name)</td>
+                        <td class="column100 column2" data-column="column2">@Html.DisplayFor(modelItem => item.latitude)</td>
+                        <td class="column100 column2" data-column="column2">@Html.DisplayFor(modelItem => item.longtitude)</td>
+
+                        <td class="column100 column5" data-column="column5">
+                            <a href="javascript:openWin('@Url.Action("SuppMapView","Supplier",new { id=item.Id})','','toolbar=no,location=no,directories=0,status=no,top100,left=200,menuBar=no,scrollBars=no,resizable=no,width=900,height=600');"
+                               class="fa fa-map-marker btn btn-danger">
+                                
+                            </a>
+                        </td>
+                        <td class="column100 column6" data-column="column6" align="center">
+                            <a href="javascript:openWin('@Url.Action("ImageUpload","Supplier",new { id=item.Id})','','toolbar=no,location=no,directories=0,status=no,top100,left=200,menuBar=no,scrollBars=no,resizable=no,width=700,height=600');">
+
+                                @if (item.Image == null)
+                                {
+
+                                    <img height="35" src="~/Content/admin/img/addimage.png">
+
+                                }
+                                else
+                                {
+                                    <img height="35" src="~/Content/images/@item.Image">
+                                }
+                            </a>
+                        </td>
+                        <td class="column100 column7" data-column="column7">@Html.DisplayFor(modelItem => item.Status)</td>
+                        <td class="column100 column3" data-column="column3">
+                            <a href="javascript:openWin('@Url.Action("ShowProduct","Supplier",new { id=item.Id})','','toolbar=no,location=no,directories=0,status=no,top100,left=200,menuBar=no,scrollBars=no,resizable=no,width=600,height=600');"
+                                class="fa fa-cutlery btn btn-success">
+                            </a>
+                        </td>
+                        <td class="column100 column8" data-column="column8">
+                            <a href="@Url.Action("Edit","Supplier", new { id=item.Id })"
+                               class="fa fa-edit btn btn-info"></a>
+                        </td>
+                        <td class="column100 column13" data-column="column13">
+                            <a href="#"
+                               class="fa fa-eraser btn btn-warning"
+                               onclick="ConfirmDelete(@item.Id)"></a>
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- /wrapper -->
+</section>
+
+<div class="modal fade" id="modalim">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" class="close" data-dismiss="modal">&times;</a>
+                <h4 class="modal-title">Sil</h4>
+            </div>
+            <div class="modal-body">
+                <h5>Silmek istediğinizden emin misiniz?</h5>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-default" data-dismiss="modal">Iptal</a>
+                <a href="#" class="btn btn-success" onclick="DeleteEmployee()">Onay</a>
+            </div>
+        </div>
+    </div>
+</div>
+<input type="hidden" id="Id" />
+<script>
+
+    var ConfirmDelete = function (id) {
+
+        $("#Id").val(id);
+        $("#modalim").modal('show');
+
+    }
+
+    var DeleteEmployee = function () {
+
+
+        var pId = $("#Id").val();
+
+        $.ajax({
+
+            type: "POST",
+            url: "/Supplier/Delete",
+            data: { id: pId },
+            success: function (result) {
+
+                $("#modalim").modal("hide");
+                $("#row_" + pId).remove();
+
+            }
+
+        })
+
+    }
+</script>
+<SCRIPT language="JavaScript" type="text/javascript">
+    function openWin(windowURL, windowName, windowFeatures) {
+        window.open(windowURL, windowName, windowFeatures);
+    }
+</SCRIPT>

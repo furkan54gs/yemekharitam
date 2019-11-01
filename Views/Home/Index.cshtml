@@ -1,0 +1,351 @@
+﻿@{
+    ViewBag.Title = ViewBag.t;
+    IEnumerable<MvcCF5.Models.Product> sidebarProduct = ViewBag.prod as IEnumerable<MvcCF5.Models.Product>;
+}
+<script src="~/Content/themes/dist/js/jquery-1.10.2.min.js"></script>
+<script async defer src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAXx4aEGCsJv_BedqPOehaxCjyVT9i25ls&callback=initMap"></script>
+
+<link href="~/Content/themes/dist/css/myBoots.css" rel="stylesheet">
+<link href="~/Content/themes/dist/css/myCarousel.css" rel="stylesheet">
+<script src="~/Content/themes/dist/js/myCarousel.js"></script>
+<link href="~/Content/themes/dist/css/myParallax.css" rel="stylesheet">
+
+<script type="text/javascript">
+
+    var contentString = '<div id="content">' +
+        '<div id="siteNotice" align="center">' +
+        '<img width="100" src="/Content/images/#IMG_SRC#"/>' +
+        '</div>' +
+        '<h4 id="firstHeading" class="firstHeading">#FIRST_HEADING#</h4>' +
+        '<div id="bodyContent">' +
+        '#DETAIL# <br/>' +
+        '</p>' +
+        '<a type="button" href="/Home/SupplierDetail/#BUTTON#" class="btn btn-primary btn-sm">Detaylar</a>' +
+        '</div>' +
+        '</div>';
+
+    var suppString = '<div class="item">' +
+        '<div class="pad15">' +
+        '<p>'+
+        '<a href = "/Home/SupplierDetail/#BUTTON#" ><img width="270" height="203" src="/Content/images/#IMG#" alt=""></a>'+'</p>' +
+        '<p class="lead">#NAME#</p>'
+      /*  '<p>'+'<a type="button" href="/Home/SupplierDetail/#BUTTON#" class="btn btn-success">Ayrıntılar</a>'+'</p>'*/ +
+        '</div>' +
+        '</div>';
+
+
+    $(document).ready(function () {
+        initMap();
+    });
+
+    // harita initialize
+    function initMap() {
+
+        var myCenter = new google.maps.LatLng();
+        var mapProp = {
+            center: myCenter,
+            zoom: 14,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+             disableDoubleClickZoom: true
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+    // tıklayınca giden
+        var clickmarker = new google.maps.Marker({
+            draggable: false
+        });
+
+        google.maps.event.addListener(map, 'dblclick', function (event) {
+
+            clickmarker.setPosition(event.latLng);
+            clickmarker.setMap(map);
+            clickmarker.setAnimation(google.maps.Animation.DROP);
+            var lat = clickmarker.getPosition().lat();
+            var lati = clickmarker.getPosition().lat();
+            var lng = clickmarker.getPosition().lng();
+            var lngi = clickmarker.getPosition().lng();
+
+            jQuery("#lat").val(lat);
+            jQuery("#lng").val(lng);
+
+            $("#demo").empty();
+
+           $.ajax({
+                    url: '@Url.Action("GetLocation", "Home")',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: { lati,lngi },
+                    success: function (data) {
+                        var tson = JSON.parse(data);
+
+                        for (var i = 0; i < tson.length;i++) {
+
+                            var ts = suppString;
+                            ts = ts.replace("#NAME#",tson[i].name);
+                            ts = ts.replace("#IMG#", tson[i].img);
+                            ts = ts.replace("#BUTTON#", tson[i].id);
+                            $('#demo').append(ts);
+
+                        }
+                }
+            });
+
+        });
+
+        // geolocation
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function (position) {
+                var pos = {
+                    lat: position.coords.latitude,
+                    lng: position.coords.longitude
+                };
+                var lati = position.coords.latitude;
+                var lngi = position.coords.longitude;
+                var here = new google.maps.Marker({
+                    position: pos,
+                    map: map,
+                    title: 'Konumunuz'
+                });
+
+                map.setCenter(pos);
+
+                $.ajax({
+                    url: '@Url.Action("GetLocation", "Home")',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: { lati,lngi },
+                    success: function (data) {
+                        var tson = JSON.parse(data);
+                        for (var i = 0; i < tson.length;i++) {
+
+                            var ts = suppString;
+                            ts = ts.replace("#NAME#", tson[i].name);
+                            ts = ts.replace("#IMG#", tson[i].img);
+                            ts = ts.replace("#BUTTON#", tson[i].id);
+                            $('#demo').append(ts);
+
+                        }
+                }
+            });
+
+            }, function () {
+                handleLocationError(true, infoWindow, map.getCenter());
+            });
+        } else {
+            // Browser doesn't support Geolocation
+            handleLocationError(false, infoWindow, map.getCenter());
+        }
+
+        function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+            infoWindow.setPosition(pos);
+            infoWindow.setContent(browserHasGeolocation ?
+                'Error: Lütfen konum ayarlarınızı açın veya izin verin.' :
+                'Error: Tarayıcınız bu hizmeti desteklemiyor.');
+            infoWindow.open(map);
+        }
+
+        // marker infoWindow
+        var infoWindow = new google.maps.InfoWindow({
+            maxWidth: 300
+        });
+
+        // kordinat okuyoruz.
+        $.get("/Home/GetSuppliers", function (data) {
+
+            var json = JSON.parse(data);
+                // markerları oluştur
+                for (var i = 0; i < json.length; i++) {
+                    var position = {
+                        lat: parseFloat(json[i].lat.replace(',', '.')),
+                        lng: parseFloat(json[i].lng.replace(',', '.'))
+                    };
+                    var marker = new google.maps.Marker({
+                        position: position,
+                        icon: '/Content/themes/assets/images/restaurantx.png',
+                        animation: google.maps.Animation.DROP,
+                        map: map,
+                        title: json[i].name,
+                    });
+                    // infoWindow içeriğini replace et
+                    var cs = contentString;
+                    cs = cs.replace("#FIRST_HEADING#", json[i].name);
+                    cs = cs.replace("#IMG_SRC#", json[i].img);
+                    cs = cs.replace("#DETAIL#", json[i].det);
+                    cs = cs.replace("#BUTTON#", json[i].id);
+
+                    // marker'ın click event'ini set et
+                    google.maps.event.addListener(marker, 'click', (function (marker, cs, infoWindow) {
+                        return function () {
+                            infoWindow.setContent(cs);
+                            infoWindow.open(map, this);
+                        };
+                    })(marker, cs, infoWindow));
+                }
+        });
+    }
+</script>
+
+<div id="mainCarousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+        <div id="googleMap" style="height:450px;"></div>
+
+    </div>
+</div>
+
+<div class="mainTitle">
+    <div class="container">
+        <h1>Olduğunuz Yere Sipariş Verin !</h1>
+        <p>
+            Konumunuza yakın sipariş notlarını harita üzerinden seçebilir ve sipariş verebilirsiniz.
+        </p>
+    </div>
+</div>
+
+<!-- supplier-->
+<div class="container">
+    <div class="row">
+        <div class="MultiCarousel" data-items="1,2,2,3" data-slide="2" id="MultiCarousel" data-interval="1000">
+            <div style="text-align:right">
+                <a href="@Url.Action("Ara", "Home", new { search="All", option="Restoran" })">Tümünü Göster</a>
+            </div>
+
+            <div id="demo" class="MultiCarousel-inner" style="margin-top:20px">
+
+            </div>
+
+            <button class="btn btn-lg btn-success leftLst"><</button>
+            <button class="btn btn-lg btn-success rightLst">></button>
+        </div>
+
+    </div>
+</div>
+<!---->
+<br />
+
+<div class="parbody-2">
+    <div class="bgimg-3 ">
+        <div class="caption-2">
+            <span class="border-2">
+                <b>Size en iyi şekilde hizmet verebilmemiz için lütfen konum ayarlarını açın.</b>
+            </span>
+        </div>
+    </div>
+</div>
+<!--product-->
+
+@Html.Partial("_ProductSlider", sidebarProduct)
+
+<!---->
+<div class="highlightSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="media">
+                    <a href="@Url.Action("Categories","Home",new { select="Tatlı" })"><img src="~/Content/themes/assets/images/tatli.png" alt="nepali-momo"> </a>
+                    <h3 class="media-heading text-primary-theme">Tatlı Çeşitleri</h3>
+                    <p>Kayseri'yi Aratmayan Şahane Mantılar</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="media">
+                    <a href="@Url.Action("Categories","Home",new { select="Tavuk" })">
+                        <img src="~/Content/themes/assets/images/gorkha-special-chicken.png"
+                             alt="GURKHA SPECIAL CHICKEN">
+                    </a>
+                    <h3 class="media-heading text-danger-theme">Tavuk Çeşitleri</h3>
+                    <p>Marine Edilmiş Leziz Tavuk Yemekleri</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="media">
+                    <a href="@Url.Action("Categories","Home",new { select="Kebap" })"><img src="~/Content/themes/assets/images/lam-tikka.png" alt="Lam Tikka"> </a>
+                    <h3 class="media-heading">Kebap Çeşitleri</h3>
+                    <p>Acılı-Acısız Nefis Kebaplar </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="parbody">
+    <div class="bgimg-2 ">
+        <div class="caption">
+            <span class="border"><b></b></span>
+        </div>
+    </div>
+</div>
+
+<div class="introSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <h3>Kolay Sipariş İmkanı</h3>
+                <p>
+                    Tek tıklamayla konumunuzu girebilir ve sipariş verebilirsiniz !
+                    <br><br>
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <h3>Hızlı Ödeme</h3>
+                <p>
+                    Kapıda ödeme veya kredi kartı ödeme yöntemlerini seçebilirsiniz.
+                    <br><br>
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <h3>Anında Servis</h3>
+                <p>
+                    Konumunuz sayesinde en yakında olan servis biriminden sipariş verin !
+                    <br><br>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container marketing">
+    <div id="myCarousel4" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">
+                            Karışık Tabaklar<span class="text-muted"><br>Uyumlu lezzetler!</span>
+                        </h2>
+                        <p class="lead">Tüm tabaklar için tıklayın</p>
+                    </div>
+                    <div class="col-md-5">
+                        <a href="@Url.Action("Categories","Home",new { select="Karışık" })"> <img src="~/Content/themes/assets/images/fish-and-chips.png"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="row featurette">
+                    <div class="col-md-5">
+                        <a href="@Url.Action("Categories","Home",new { select="Burger" })"><img src="~/Content/themes/assets/images/burger.png"></a>
+                    </div>
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">
+                            Burger Çeşitleri <span class="text-muted"><br>Olağanüstü!</span>
+                        </h2>
+                        <p class="lead">Çeşit çeşit burgerler</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">İçeceğini seç <span class="text-muted"><br>Buz gibi !</span></h2>
+                        <p class="lead">Yemeğinizin yanında içinizi ferahlatıcak içecekler</p>
+                    </div>
+                    <div class="col-md-5">
+                        <a href="@Url.Action("Categories","Home",new { select="Soğuk İçecek" })"><img class="img-circle" src="~/Content/themes/assets/images/drinks.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,155 @@
+﻿@model IEnumerable<MvcCF5.Models.Comment>
+
+@{
+    ViewBag.Title = "Yorumlar";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<section id="main-content">
+    <section class="wrapper site-min-height">
+        <br>
+
+        <div class="table100 ver1 m-b-110">
+            <table data-vertable="ver1">
+                <thead>
+                    <tr class="row100 head">
+                        <th class="column100 column1" data-column="column1">Id</th>
+                        <th class="column100 column2" data-column="column2">Kullanıcı</th>
+                        <th class="column100 column2" data-column="column2">Ürün</th>
+                        <th class="column100 column2" data-column="column2">Derece</th>
+                        <th class="column100 column2" data-column="column2">Yorum</th>
+                        <th class="column100 column5" data-column="column5">Durum</th>
+                        <th class="column100 column12" data-column="column12">Onayla</th>
+                        <th class="column100 column13" data-column="column13">Sil</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                    <tr id="row_@item.Id" class="row100">
+                        <td class="column100 column1" data-column="column1">@Html.DisplayFor(modelItem => item.Id)</td>
+                        <td class="column100 column2" data-column="column2">@Html.DisplayFor(modelItem => item.UserName)</td>
+                        <td class="column100 column2" data-column="column2">@Html.DisplayFor(modelItem => item.ProductName)</td>
+
+                        <td class="column100 column2" data-column="column2">
+                            @if (item.Rate == 0)
+                            {
+                                <img width="20" src="~/Content/themes/assets/images/sad.png" alt="sad" />
+                            }
+                            else if (item.Rate == 1)
+                            {
+                                <img width="20" src="~/Content/themes/assets/images/neutral.png" alt="neutral" />
+                            }
+                            else if (item.Rate == 2)
+                            {
+                                <img width="20" src="~/Content/themes/assets/images/smile.png" alt="smile" />
+                            }
+                            else
+                            {
+
+                            }
+                        </td>
+
+                        <td class="column100 column2" data-column="column2">@Html.DisplayFor(modelItem => item.ProductComment)</td>
+
+                        <td id="col_@item.Id" class="column100 column7" data-column="column7">
+                            @if (item.Status == true)
+                            {
+                                <b style="color:#00b60f">Onaylandı</b>
+                            }
+                            else
+                            {
+                                <b style="color:#c80000">Onaylanmadı</b>
+                            }
+                        </td>
+                       
+                        <td class="column100 column8" data-column="column8">
+                            <a href="#"
+                               class="fa fa-eraser btn btn-success"
+                               onclick="ConfirmComment(@item.Id)"></a>
+                        </td>
+                        <td class="column100 column13" data-column="column13">
+                            <a href="#"
+                               class="fa fa-eraser btn btn-warning"
+                               onclick="ConfirmDelete(@item.Id)"></a>
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- /wrapper -->
+</section>
+
+<div class="modal fade" id="modalim">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" class="close" data-dismiss="modal">&times;</a>
+                <h4 class="modal-title">Sil</h4>
+            </div>
+            <div class="modal-body">
+                <h5>Silmek istediğinizden emin misiniz?</h5>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-default" data-dismiss="modal">Iptal</a>
+                <a href="#" class="btn btn-success" onclick="DeleteEmployee()">Onay</a>
+            </div>
+        </div>
+    </div>
+</div>
+<input type="hidden" id="Id" />
+<script>
+
+    var ConfirmDelete = function (id) {
+
+        $("#Id").val(id);
+        $("#modalim").modal('show');
+
+    }
+
+
+    var ConfirmComment = function (id) {
+        
+        $.ajax({
+
+            type: "POST",
+            url: "/Product/ConfirmComment",
+            data: { id: id },
+            success: function (result) {
+
+                $("#col_" + id).empty();
+                $("#col_" + id).append('<b style="color:#00b60f">Onaylandı</b>');
+                
+            }
+
+        })
+
+
+    }
+
+
+    var DeleteEmployee = function () {
+
+
+        var pId = $("#Id").val();
+
+        $.ajax({
+
+            type: "POST",
+            url: "/Product/DeleteComment",
+            data: { id: pId },
+            success: function (result) {
+
+                $("#modalim").modal("hide");
+                $("#row_" + pId).remove();
+
+            }
+
+        })
+
+    }
+</script>
+

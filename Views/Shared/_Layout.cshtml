@@ -1,0 +1,131 @@
+﻿
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="@ViewBag.d">
+    <meta name="keywords" content="@ViewBag.k">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="~/Content/themes/assets/ico/ico.png">
+    <title>@ViewBag.title</title>
+
+    <link href="~/Content/themes/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Content/themes/assets/css/carousel.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar-wrapper">
+        <div class="container">
+            <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="@Url.Action("Index","Home")"><img width="50" src="~/Content/themes/assets/images/logo.png" /></a>
+                        <a href="@Url.Action("Index","Home")"><img style="margin-top:6px;" width="240" src="~/Content/themes/assets/images/yazi.png" /></a>
+                    </div>
+                    <form action="/Home/Ara" method="post">
+
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav pull-right">
+                                <li class="active"><a href="@Url.Action("Index", "Home")">AnaSayfa</a></li>
+                                <li><a href="@Url.Action("AboutUs", "Home")">Hakkımızda</a></li>
+                                <li><a href="@Url.Action("Contact", "Home")">İletişim</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kategoriler <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        @if (ViewBag.cat != null)
+                                        {
+                                            foreach (var item in ViewBag.cat)
+                                            {
+                                                <li style="width:250px">
+                                                    <a href="@Url.Action("Categories","Home",new { select=item })">@item</a>
+                                                </li>
+                                            }
+                                        }
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Arama <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li style="padding:20px; width:250px">
+                                            @Html.TextBox("search", null, new { @class = "form-control", required = "required" })
+                                        </li>
+                                        <li style="padding-left:20px">
+                                            <input type="radio" name="option" value="Ürün"> Ürün &nbsp;&nbsp;
+                                            <input type="radio" name="option" value="Restoran"> Restoran &nbsp;&nbsp;
+                                            <input type="radio" name="option" value="Kategori"> Kategori &nbsp;&nbsp;
+                                            <p><button class="btn btn-success" type="submit">Ara</button></p>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                @if (Session["Id"] == null)
+                                {
+                                    <li style="margin-left:100px;margin-top:15px;"><img width="20" src="~/Content/themes/assets/images/register.png" /></li>
+                                    <li>@Html.ActionLink("Kayıt Ol", "Register", "Home")</li>
+                                    <li style="margin-left:40px;">@Html.ActionLink("Giriş", "Login", "Home")</li>
+                                    <li style="margin-top:14px;margin-right:40px;"><img width="20" src="~/Content/themes/assets/images/login.png" /></li>
+                                }
+                                @if (Session["Id"] != null)
+                                {
+
+                                    <li class="dropdown">
+                                        <a href="#" style="margin-left:100px;" class="dropdown-toggle" data-toggle="dropdown"><b>@Session["Name"].ToString()</b><b class="caret"></b></a>
+
+                                        <ul class="dropdown-menu" style="margin-left:100px;">
+                                            @if (Session["Role"].ToString() == "Admin")
+                                            {
+                                                <li><a href="@Url.Action("Index", "Admin")">Admin Panel</a></li>
+                                            }
+                                            @if (Session["Role"].ToString() == "Supplier" || Session["Role"].ToString() == "Admin")
+                                            {
+                                                <li><a href="@Url.Action("ShowProducts", "Supplier", new { id = Session["Id"] })">Ürünlerim</a></li>
+                                            }
+                                            @if (Session["Role"].ToString() != "Supplier")
+                                            {
+                                                <li>@Html.ActionLink("Sepetim", "ShopCart", "Order")</li>
+                                            }
+                                            <li>  <a href="@Url.Action("ShowOrders", "Order", new { id = Session["Id"] })">Siperişlerim</a></li>
+                                            <li><a href="@Url.Action("ShowCustomerInform", "Home", new { id = Session["Id"] })">Üye Bilgileri</a></li>
+                                            <li>@Html.ActionLink("Çıkış", "LogOut", "Home")</li>
+                                        </ul>
+
+                                    </li>
+                                    <li>
+                                        <img style="margin-top:14px;margin-right:40px;" width="20" src="~/Content/themes/assets/images/user.png" />
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    @RenderBody()
+
+    <!-- /içerik -->
+    <!-- /içerik sonu -->
+
+    <footer>
+        <div class="container">
+            <p class="pull-right"><a href="#">Yukarı</a></p>
+            <p>&copy;&emsp;Yemek Haritam&emsp;&middot;&emsp;2019 <a href="#"></a>  <a href="#"></a></p>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

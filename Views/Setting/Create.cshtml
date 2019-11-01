@@ -1,0 +1,133 @@
+﻿@model MvcCF5.Models.Setting
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<section id="main-content">
+    <section class="wrapper site-min-height">
+        <h3>Settings</h3>
+        <div class="container">
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#home">Genel Bilgiler</a></li>
+                <li><a data-toggle="tab" href="#menu1">Email Server</a></li>
+                <li><a data-toggle="tab" href="#menu2">Hakkımızda Sayfası</a></li>
+                <li><a data-toggle="tab" href="#menu3">İletişim Sayfası</a></li>
+                <li><a data-toggle="tab" href="#menu4">Referanslar Sayfası</a></li>
+            </ul>
+            <div class="form-panel">
+                <div class="form">
+                    <form class="cmxform form-horizontal style-form" id="signupForm" method="post" action="">
+                        <div class="tab-content">
+                            @Html.HiddenFor(model => model.Id)
+                            <div id="home" class="tab-pane fade in active">
+                                <div class="form-group ">
+                                    <label for="title" class="control-label col-lg-1">Başlık</label>
+                                    <div class="col-lg-5">
+                                        @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control" } })
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    <label for="description" class="control-label col-lg-1">Tanımlama</label>
+                                    <div class="col-lg-5">
+                                        @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    <label for="keywords" class="control-label col-lg-1">Anahtar K.</label>
+                                    <div class="col-lg-5">
+                                        @Html.EditorFor(model => model.Keywords, new { htmlAttributes = new { @class = "form-control" } })
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    <label for="company" class="control-label col-lg-1">Şirket</label>
+                                    <div class="col-lg-5">
+                                        @Html.EditorFor(model => model.Company, new { htmlAttributes = new { @class = "form-control" } })
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    <label for="address" class="control-label col-lg-1">Adres</label>
+                                    <div class="col-lg-5">
+                                        @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    <label for="phone" class="control-label col-lg-1">Telefon</label>
+                                    <div class="col-lg-2">
+                                        @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control" } })
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="menu1" class="tab-pane fade">
+                                <div class="form-group ">
+                                    <label for="email" class="control-label col-lg-1">E-posta</label>
+                                    <div class="col-lg-5">
+                                        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="menu2" class="tab-pane fade">
+                                <div class="form-group ">
+                                    <div class="col-lg-9">
+                                        @Html.TextAreaFor(model => model.AboutUs, new { @class = "form-control", id = "aboutus" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="menu3" class="tab-pane fade">
+                                <div class="form-group ">
+                                    <div class="col-lg-9">
+                                        @Html.TextAreaFor(model => model.Contact, new { @class = "form-control", id = "contact" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="menu4" class="tab-pane fade">
+                                <div class="form-group ">
+                                    <div class="col-lg-9">
+                                        @Html.TextAreaFor(model => model.Referances, new { @class = "form-control", id = "referances" })
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-offset-1 col-lg-5">
+                                <button class="btn btn-theme" type="submit">Kaydet</button>
+                                <a href="@Url.Action("Index","Admin")" class="btn btn-theme04" type="button">Geri</a>
+                            </div>
+                            <label for="status" class="control-label col-lg-1 ">Status</label>
+                            <div class="col-lg-2">
+                                @Html.DropDownListFor(model => model.Status, new List<SelectListItem>
+    {
+                                new SelectListItem{ Text="Aktif", Value = "Aktif" },
+                                new SelectListItem{ Text="Pasif", Value = "Pasif" },}, new { @class = "form-control" })
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /wrapper -->
+</section>
+<script src="https://cdn.ckeditor.com/ckeditor5/11.1.1/classic/ckeditor.js"></script>
+<!--ck-taker-->
+<script>
+        ClassicEditor
+            .create(document.querySelector('#aboutus'))
+            .catch(error => {
+                console.error(error);
+            });
+</script>
+<script>
+        ClassicEditor
+            .create(document.querySelector('#contact'))
+            .catch(error => {
+                console.error(error);
+            });
+</script>
+<script>
+        ClassicEditor
+            .create(document.querySelector('#referances'))
+            .catch(error => {
+                console.error(error);
+            });
+</script>

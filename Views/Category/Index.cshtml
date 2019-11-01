@@ -1,0 +1,100 @@
+﻿@model IEnumerable<MvcCF5.Models.Category>
+
+@{
+    ViewBag.Title = "Kategoriler";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<section id="main-content">
+    <section class="wrapper site-min-height">
+        <br>
+        <a href="@Url.Action("Create","Category")" class="fa fa-plus-square btn btn-primary">&nbsp; Kategori Ekleme </a>
+
+        <div class="table100 ver1 m-b-110">
+            <table data-vertable="ver1">
+                <thead>
+                    <tr class="row100 head">
+                        <th class="column100 column1" data-column="column1">Id</th>
+                        <th class="column100 column2" data-column="column2">İsim</th>
+                        <th class="column100 column3" data-column="column3">Anahtar K.</th>
+                        <th class="column100 column4" data-column="column4">Tanım</th>
+                        <th class="column100 column5" data-column="column5">Durum</th>
+                        <th class="column100 column6" data-column="column6">Düzenle</th>
+                        <th class="column100 column7" data-column="column7">Sil</th>
+                         </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                    <tr id="row_@item.Id" class="row100">
+                        <td class="column100 column1" data-column="column1">@Html.DisplayFor(modelItem => item.Id)</td>
+                        <td class="column100 column2" data-column="column2">@Html.DisplayFor(modelItem => item.Name)</td>
+                        <td class="column100 column3" data-column="column3">@Html.DisplayFor(modelItem => item.Keywords)</td>
+                        <td class="column100 column4" data-column="column4">@Html.DisplayFor(modelItem => item.Description)</td>
+                        <td class="column100 column5" data-column="column5">@Html.DisplayFor(modelItem => item.Status)</td>
+                        <td class="column100 column6" data-column="column6" align="center">
+                            <a href="@Url.Action("Edit","Category", new { id=item.Id })"
+                               class="fa fa-edit btn btn-info"></a>
+                        </td>
+                        <td class="column100 column7" data-column="column7">
+                            <a href="#"
+                               class="fa fa-eraser btn btn-warning"
+                               onclick="ConfirmDelete(@item.Id)"></a>
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- /wrapper -->
+</section>
+
+<div class="modal fade" id="modalim">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" class="close" data-dismiss="modal">&times;</a>
+                <h4 class="modal-title">Sil</h4>
+            </div>
+            <div class="modal-body">
+                <h5>Silmek istediğinizden emin misiniz?</h5>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-default" data-dismiss="modal">Iptal</a>
+                <a href="#" class="btn btn-success" onclick="DeleteEmployee()">Onay</a>
+            </div>
+        </div>
+    </div>
+</div>
+<input type="hidden" id="Id" />
+<script>
+
+    var ConfirmDelete = function (id) {
+
+        $("#Id").val(id);
+        $("#modalim").modal('show');
+
+    }
+
+    var DeleteEmployee = function () {
+
+
+        var pId = $("#Id").val();
+
+        $.ajax({
+
+            type: "POST",
+            url: "/Category/Delete",
+            data: { id: pId },
+            success: function (result) {
+
+                $("#modalim").modal("hide");
+                $("#row_" + pId).remove();
+
+            }
+
+        })
+
+    }
+</script>

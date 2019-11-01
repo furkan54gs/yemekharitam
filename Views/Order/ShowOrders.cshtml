@@ -1,0 +1,145 @@
+﻿@model IEnumerable<MvcCF5.Models.Order>
+
+@{
+    ViewBag.Title = "Siparişlerim";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container" style="min-height:530px;margin-top:50px">
+    <br />
+
+    @if (TempData["Message"] != null)
+    {
+        <h4 style="color:#00b60f;margin-left:8%;margin-top:-3%">@TempData["Message"]</h4>
+    }
+    <div class="row">
+        <div class="col-md-12">
+            <h3 style="text-align:left">Siparişlerim</h3>
+            <br />
+            @if (Model.Count() != 0)
+            {
+                <table class="table">
+                    <tr style="text-align:center">
+                        <th>
+
+                        </th>
+                        <th>
+                            @Html.DisplayName("Id")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Restoran")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Telefon")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Toplam")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Tarih")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Durumu")
+                        </th>
+                        <th>
+                            @Html.DisplayName("İşlem")
+                        </th>
+                    </tr>
+
+                    @foreach (var item in Model)
+                    {
+                        if (item.Status == true)
+                        {
+
+                            <tr id="row_@item.Id">
+                                <td></td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Id)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.SuppName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Phone)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Amount)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Date)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.ShipInfo)
+                                </td>
+                                <td>
+                                    <a href="@Url.Action("OrderDetail", "Order", new { id = item.Id })"
+                                       class="btn btn-info">Detay</a>
+                                    @if (Session["Role"].ToString() != "Supplier")
+                                    {
+                                        <a href="#"
+                                           class="btn btn-danger"
+                                           onclick="ConfirmDelete(@item.Id)">Kaldır</a>
+                                    }
+                                </td>
+                            </tr>
+                        }
+
+                    }
+                </table>
+                <hr />
+                <div style="text-align:left;">
+                    <a style="margin-right:8%" class="btn btn-link" href="@Url.Action("Index","Home")" role="button">Ana Sayfa</a>
+                </div>
+
+            }
+            else
+            {
+                <h3>Siparişiniz yok.</h3>
+            }
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modalim">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" class="close" data-dismiss="modal">&times;</a>
+                <h4 class="modal-title">Sil</h4>
+            </div>
+            <div class="modal-body">
+                <h5>
+                    Dikkat! Siparişinizi iptal etmek üzeresiniz.
+                    Siparişinizi gerçekten iptal etmek istiyor musunuz?
+                </h5>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-default" data-dismiss="modal">Iptal</a>
+                <a href="#" class="btn btn-success" onclick="Delete()">Onay</a>
+            </div>
+        </div>
+    </div>
+</div>
+<input type="hidden" id="Id" />
+<script>
+    var ConfirmDelete = function (id) {
+        $("#Id").val(id);
+        $("#modalim").modal('show');
+    }
+    var Delete = function () {
+        var pId = $("#Id").val();
+        $.ajax({
+
+            type: "POST",
+            url: "/Order/OrderDelete",
+            data: { id: pId },
+            success: function (result) {
+
+                $("#modalim").modal("hide");
+                $("#row_" + pId).remove();
+            }
+        })
+    }
+</script>
+
+
+

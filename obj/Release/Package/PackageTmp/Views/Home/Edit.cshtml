@@ -1,0 +1,111 @@
+﻿@model MvcCF5.Models.UserAccount
+
+@{
+    ViewBag.Title = "Üye Düzenleme";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+<section id="main-content">
+    <section class="wrapper site-min-height">
+        <h3>Üye Düzenleme</h3>
+        <div class="content-panel">
+            <div class="form-panel">
+                <div class="form">
+                    @using (Html.BeginForm("Edit", "Home", null, FormMethod.Post, new { @class = "cmxform form-horizontal style-form" }))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <h4>@Html.ValidationSummary(true, "", new { @class = "text-danger" })</h4>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Name,"Adı", htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-4">
+                                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-4">
+                                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Password,"Şifre", htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-4">
+                                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.ConfirmPasword,"Şifre(Tekrar)", htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-4">
+                                @Html.EditorFor(model => model.ConfirmPasword, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.ConfirmPasword, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Role, "Üyelik Türü", htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-4">
+                                @Html.RadioButtonFor(m => m.Role, "Customer") Müşteri &emsp;
+                                @Html.RadioButtonFor(m => m.Role, "Supplier") Kurumsal &emsp;
+                                @Html.RadioButtonFor(m => m.Role, "Mod") Yetkili <br>
+                                @Html.ValidationMessageFor(model => model.Role, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Tel, "Telefon", htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-4">
+                                @Html.EditorFor(model => model.Tel, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Tel, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Longtitude, "Enlem", htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-1">
+                                @Html.EditorFor(model => model.Longtitude, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Longtitude, "", new { @class = "text-danger" })
+                            </div>
+                            @Html.LabelFor(model => model.Latitude, "Boylam", htmlAttributes: new { @class = "control-label col-md-1" })
+                            <div class="col-md-1">
+                                @Html.EditorFor(model => model.Latitude, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Latitude, "", new { @class = "text-danger" })
+                            </div>
+                            @Html.LabelFor(model => model.Distance, "Max", htmlAttributes: new { @class = "control-label col-md-1" })
+                            <div class="col-md-1">
+                                @Html.EditorFor(model => model.Distance, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Distance, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Address, "Açık Adres", htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-5">
+                                @Html.TextAreaFor(model => model.Address, new { @class = "form-control", rows = "4" })
+                                @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <div class="col-lg-offset-1 col-lg-5">
+                                <button class="btn btn-theme" type="submit">Save</button>
+                                <a href="@Url.Action("UserList","Home")" class="btn btn-theme04" type="button">Cancel</a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

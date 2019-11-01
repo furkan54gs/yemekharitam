@@ -1,0 +1,270 @@
+﻿
+@{
+    ViewBag.Title = "Sipariş Detayları";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <style>
+        .vl {
+            border-left: 2px solid;
+            height: 320px;
+            position: absolute;
+            left: 43%;
+            margin-left: -3px;
+            top: 20%;
+        }
+    </style>
+}
+
+
+<div class="container" style="min-height:530px;margin-top:50px">
+    <br />
+    <div class="row">
+        <div class="col-md-5">
+            <h3 style="text-align:left">Sipariş Detayları</h3>
+            <br />
+            @if (ViewBag.order != null)
+            {
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayName("Id : ")
+                    </th>
+                    <td>
+                        @ViewBag.order.Id
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayName("İsim : ")
+                    </th>
+                    <td>
+                        @ViewBag.order.Name
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayName("Telefon : ")
+                    </th>
+                    <td>
+                        @ViewBag.order.Phone
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayName("Toplam : ")
+                    </th>
+                    <td>
+                        @ViewBag.order.Amount
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayName("S.Tarihi : ")
+                    </th>
+                    <td>
+                        @ViewBag.order.Date
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayName("Adres : ")
+                    </th>
+                    <td>
+                        @ViewBag.order.Address
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayName("Sipariş Notu : ")
+                    </th>
+                    <td>
+                        @ViewBag.order.Note
+                    </td>
+                </tr>
+                <tr>
+
+                    <th>
+                        @Html.DisplayName("Durumu : ")
+                    </th>
+
+
+                    <td>
+                        @if (Session["Role"].ToString() == "Supplier")
+                        {
+
+
+                            <select name="selectScript" size="1" class="form-control single-line">
+                                <option hidden selected>@ViewBag.order.ShipInfo</option>
+                                <option value="Hazırlanıyor">Hazırlanıyor</option>
+                                <option value="Yolda">Yolda</option>
+                                <option value="Tamamlandı">Tamamlandı</option>
+                            </select>
+                            <br />
+                            <a href="#"
+                               class="btn btn-sm btn-primary"
+                               onclick="UpdateShipInfo(@ViewBag.order.Id)">Güncelle</a>
+                        }
+                        else
+                        {
+                            @ViewBag.order.ShipInfo
+                        }
+
+                    </td>
+                </tr>
+            </table>
+
+                <hr />
+                <div style="text-align:left;">
+                    <a style="margin-right:8%" class="btn btn-link" href="@Url.Action("Index","Home")" role="button">Ana Sayfa</a>
+                </div>
+
+            }
+            else
+            {
+                <h3>Gösterilecek bir şey yok :(</h3>
+            }
+        </div>
+        @if (Session["Role"].ToString() != "Admin")
+        {
+            <div class="vl"></div>
+        }
+
+
+        <br />
+        <div class="col-md-7" style="margin-top:5%">
+
+            @if (ViewBag.orderDetail != null)
+            {
+
+                <table class="table table-striped">
+
+                    <tr style="text-align:center">
+                        <th>
+
+                        </th>
+                        <th>
+                            @Html.DisplayName("Id")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Ürün")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Adet")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Fiyatı")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Tutar")
+                        </th>
+                        <th>
+                            @Html.DisplayName("İşlem")
+                        </th>
+                    </tr>
+
+                    @foreach (var item in ViewBag.orderDetail)
+                    {
+                        if (item.Status == true)
+                        {
+
+                            <tr id="row_@item.Id">
+                                <td></td>
+                                <td>
+                                    @item.Id
+                                </td>
+                                <td>
+                                    @item.Name
+                                </td>
+                                <td>
+                                    @item.Quantity
+                                </td>
+                                <td>
+                                    @item.SellPrice
+                                </td>
+                                <td>
+                                    @item.Amount
+                                </td>
+                                <td>
+                                    <a href="@Url.Action("ProductDetail","Home",new {id=item.ProductId })" class="btn btn-sm btn-info">Yorum Yap</a>
+                                    <a href="#"
+                                       class="btn btn-sm btn-danger"
+                                       onclick="ConfirmDelete(@item.Id)">Kaldır</a>
+                                </td>
+                            </tr>
+                        }
+
+                    }
+                </table>
+                <hr />
+            }
+            else
+            {
+                <h3>Sepetinizde ürün yok.</h3>
+            }
+
+        </div>
+
+    </div>
+</div>
+<div class="modal fade" id="modalim">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" class="close" data-dismiss="modal">&times;</a>
+                <h4 class="modal-title">Sil</h4>
+            </div>
+            <div class="modal-body">
+                <h5>
+                    Dikkat! Siparişinizdeki ürünü iptal etmek üzeresiniz.
+                    Ürünü gerçekten iptal etmek istiyor musunuz?
+                </h5>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-default" data-dismiss="modal">Iptal</a>
+                <a href="#" class="btn btn-success" onclick="Delete()">Onay</a>
+            </div>
+        </div>
+    </div>
+</div>
+<input type="hidden" id="Id" />
+<script>
+
+    var UpdateShipInfo = function (id) {
+        var sel = document.getElementsByName("selectScript")[0].value;
+        $.ajax({
+            type: "POST",
+            url: "/Order/UpdateShipInfo",
+            data: { id: id, value: sel },
+            success: function (result) {
+                if (result == true) {
+                    alert("Sipariş Durumu Güncellenmiştir.");
+                }
+                else {
+                    alert("Durum Güncellenemedi :(");
+                }
+
+            }
+        })
+    }
+
+    var ConfirmDelete = function (id) {
+        $("#Id").val(id);
+        $("#modalim").modal('show');
+    }
+    var Delete = function () {
+        var pId = $("#Id").val();
+        $.ajax({
+
+            type: "POST",
+            url: "/Order/OrderDetailDelete",
+            data: { id: pId },
+            success: function (result) {
+
+                $("#modalim").modal("hide");
+                $("#row_" + pId).remove();
+            }
+        })
+    }
+</script>
+
+
+

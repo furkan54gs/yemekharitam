@@ -1,0 +1,49 @@
+﻿@model MvcCF5.Models.Product
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Başlık Resmi</title>
+    <link href="~/Content/themes/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div style="margin-left:10%;margin-top:5%">
+        @if (TempData["Message"] != null)
+        {
+            <h4 style="color:#00b60f">@TempData["Message"]</h4>
+        }
+        @if (Model.Image != null)
+        {
+            <div>
+                <img width="200" src="~/Content/images/@Model.Image" alt="" />
+                <br>&emsp;&emsp;&emsp;&emsp;<a href="@Url.Action("ImageDelete", "Product", new { Model.Id })" class="btn btn-danger btn-sm"
+                                               onclick="return confirm('Silmek istediğinizden emin misiniz?');">Sil</a>
+            </div>
+        }
+        else
+        {
+            <div>
+                <img height="200" src="~/Content/themes/assets/images/indir.png"><br />
+                <p>Lütfen dosya seçtikten sonra yükle tuşuna basın</p>
+            </div>
+
+        }
+        <br />
+        <div>
+            <form action="@Url.Action("ImageUpload","Product",new { Model.Id})" method="post" enctype="multipart/form-data">
+                <input type="file" name="uploadfile" id="uploadfile" class="btn btn-sm btn-primary" required />
+                <br />
+                <input type="submit" value="Yükle" class="btn  btn-sm btn-primary" />
+            </form>
+        </div>
+        <br />
+        <a href="@Url.Action("SliderImageUpload","Product",new {Model.Id })" class="btn btn-sm btn-danger" type="button">Slider Resimleri</a>
+    </div>
+</body>
+</html>
+

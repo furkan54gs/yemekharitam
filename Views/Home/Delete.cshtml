@@ -1,0 +1,63 @@
+﻿@model MvcCF5.Models.UserAccount
+
+@{
+    ViewBag.Title = "Sil";
+}
+
+<h2>Sil</h2>
+@if (Session["Id"] != null && (string)Session["Role"] == "Admin")
+{
+
+    <h3>Silmek istediğinizden emin misiniz?</h3>
+    <div>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Password)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Password)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Role)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Role)
+            </dd>
+
+        </dl>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Sil" class="btn btn-default" /> |
+
+            </div>
+        }
+    </div>
+}
+else
+{
+    <h4 style="margin-top:50px">Bu alanda işlem yapma yetkiniz yoktur.</h4>
+}
+@Html.ActionLink("Kişi Listesine Dön", "UserList")

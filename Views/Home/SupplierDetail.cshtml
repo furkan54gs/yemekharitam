@@ -1,0 +1,72 @@
+﻿@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/Content/themes/dist/css/myParallax.css" rel="stylesheet">
+
+<div class="bgimg-1" style=" background-image: url(/Content/images/@ViewBag.supp.Image);min-height: 100%;">
+    <div class="caption">
+        <span class="border"><b>@ViewBag.supp.Name</b></span>
+    </div>
+</div>
+<div style="height:auto">
+    <div class="row">
+        <div class="col-sm-8" style="background-color:lavender;">
+            <h3 style="text-align:center">Menu</h3>
+            <table style="width:100%">
+                @foreach (var item in ViewBag.prod)
+                {
+                <tr style="border-bottom:solid thin">
+                    <td><b>@item.Name</b></td>
+                    <td><img src="~/Content/images/@item.Image" width="150"></td>
+                    <td>
+                        @if (item.Status == true)
+                        {
+                            <h4 style="color:green">Stokta</h4>}
+                        else
+                        {
+                            <h4 style="color:red">Tükendi</h4>}
+                    </td>
+                    <td>
+                        @item.SellPrice₺
+                    </td>
+
+                    <form action="@Url.Action("AddShopCart","Order")" method="get">
+
+                        <td>
+                            <input name="id" value="@item.Id" hidden />
+                            <input name="quantity" type="number" class="span1"
+                                   max="@item.Amount" placeholder="Adet" required style="width:40%" />
+                        </td>
+                        <td>
+                            <a class="btn btn-warning" href="@Url.Action("ProductDetail","Home", new { id=item.Id })" role="button">Detay </a>
+                        </td>
+                        <td>
+                            <button class="btn btn-success" type="submit"> Sepete Ekle </button>
+                        </td>
+
+                    </form>
+                </tr>
+                }
+            </table>
+        </div>
+        <div class="col-sm-4" style="background-color:lavenderblush;">
+            <h3 style="text-align:center">Ayrıntılar</h3>
+            <table class="table-hover"   style="width:100%">
+                <tr>
+                    <td>
+                       @Html.Raw(ViewBag.supp.Detail)
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tel : @ViewBag.supp.Tel</td>
+                </tr>
+                <tr>
+                    <td>Adres : @ViewBag.supp.Address</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,179 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Keywords">
+    <title>@ViewBag.Title</title>
+    <!-- Favicons -->
+    <link href="~/Content/admin/img/favicon.png" rel="icon">
+    <link href="~/Content/admin/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Bootstrap core CSS -->
+    <link href="~/Content/admin/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--external css-->
+    <link href="~/Content/admin/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="~/Content/admin/css/style.css" rel="stylesheet">
+    <link href="~/Content/admin/css/style-responsive.css" rel="stylesheet">
+</head>
+<body>
+    <section id="container">
+
+        @if (Session["Role"].ToString() == "Admin")
+        {
+            <!--header start-->
+            <header class="header black-bg">
+                <div class="sidebar-toggle-box">
+                    <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+                </div>
+                <!--logo start-->
+                <a href="@Url.Action("Index","Admin")" class="logo"><b>Admin</b></a>
+                <!--logo end-->
+                <div class="nav notify-row" id="top_menu">
+                    <!--  notification start -->
+                    <ul class="nav top-menu">
+                        <!-- settings start -->
+                        <li class="toggle">
+                            <a data-toggle="toggle" class="dropdown-toggle" href="@Url.Action("Create", "Setting")">
+                                <i class="fa fa-cogs">&nbsp;Site Ayarları</i>
+                                <span class="badge bg-theme"></span>
+                            </a>
+                            <!-- settings end -->
+                    </ul>
+                </div>
+                <div class="top-menu">
+                    <ul class="nav pull-right top-menu">
+                        <!-- if şartı var---------------------------------------------------------------------- -->
+                        <li style="padding-top: 22px;padding-right: 15px">@Session["Name"]</li>
+                        <li><a class="logout" href="@Url.Action("LogOut","Home")">Çıkış</a></li>
+                    </ul>
+                </div>
+            </header>
+            <!--header end-->
+
+            <!--sidebar start-->
+            <aside>
+
+                <div id="sidebar" class="nav-collapse ">
+                    <!-- sidebar menu start-->
+                    <ul class="sidebar-menu" id="nav-accordion">
+                        <p class="centered"><a href="#"><img src="~/Content/themes/assets/images/logo.png" class="img-circle" width="80"></a></p>
+                        <h5 class="centered">@Session["Name"]</h5>
+                        <li class="mt">
+                            <a href="@Url.Action("Index","Admin")">
+                                <i class="fa fa-dashboard"></i>
+                                <span>Anamenu</span>
+                            </a>
+                        </li>
+
+                        <li class="sub-menu">
+                            <a href="javascript:;">
+                                <i class="fa fa-desktop"></i>
+                                <span>Siparisler</span>
+                            </a>
+                            <ul class="sub">
+                                <li><a href="@Url.Action("OrderList", "Order", new { status="All" })">Tümü</a></li>
+                                <li><a href="@Url.Action("OrderList", "Order", new { status="Sipariş Verildi" })">Yeniler</a></li>
+                                <li><a href="@Url.Action("OrderList", "Order", new { status="Hazırlanıyor" })">Hazırlananlar</a></li>
+                                <li><a href="@Url.Action("OrderList", "Order", new { status="Yolda" })">Yoldakiler</a></li>
+                                <li><a href="@Url.Action("OrderList", "Order", new { status="Tamamlandı" })">Tamamlananlar</a></li>
+                                <li><a href="@Url.Action("OrderList", "Order", new { status="Onaylanmadı" })">Onaylanmayanlar</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="sub-menu">
+                            <a href="@Url.Action("Index","Product")">
+                                <i class="fa fa-cutlery"></i>
+                                <span>Urunler</span>
+                            </a>
+                        </li>
+
+                        <li class="sub-menu">
+                            <a href="@Url.Action("Index","Supplier")">
+                                <i class="fa fa-briefcase"></i>
+                                <span>Tedarikçiler</span>
+                            </a>
+
+                        </li>
+
+                        <li class="sub-menu">
+                            <a href="@Url.Action("Index","Category")">
+                                <i class="fa fa-book"></i>
+                                <span>Kategoriler</span>
+                            </a>
+
+                        </li>
+                        <li class="sub-menu">
+                            <a href="#">
+                                <i class="fa fa-bar-chart-ofa fa-envelope"></i>
+                                <span>Mesajlar</span>
+                            </a>
+                            <ul class="sub">
+                                <li><a href="@Url.Action("Index", "Message", new { mesaj="New" })">Yeni</a></li>
+                                <li><a href="@Url.Action("Index", "Message", new { mesaj="Old" })">Okunanlar</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="sub-menu">
+                            <a href="@Url.Action("UserList", "Home")">
+                                <i class="fa fa-user"></i>
+                                <span>Uyeler</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="@Url.Action("ShowComments", "Product")">
+                                <i class="fa fa-comment"></i>
+                                <span>Uye Yorumları</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- sidebar menu end-->
+                </div>
+
+            </aside>
+
+        }
+        <!--sidebar end-->
+        <!--main content-->
+        @RenderBody()
+        <!--main content end-->
+        <!--footer start-->
+        <footer class="site-footer">
+            <div class="text-center">
+                <p>
+                    <strong>&copy; Yemek Haritam</strong>
+                </p>
+                <a class="go-top">
+                    <i class="fa fa-angle-up"></i>
+                </a>
+            </div>
+        </footer>
+        <!--footer end-->
+    </section>
+
+    <!--script-->
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script src="~/Content/admin/lib/jquery/jquery.min.js"></script>
+    <script src="~/Content/admin/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/Content/admin/lib/jquery-ui-1.9.2.custom.min.js"></script>
+    <script src="~/Content/admin/lib/jquery.ui.touch-punch.min.js"></script>
+    <script class="include" type="text/javascript" src="~/Content/admin/lib/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="~/Content/admin/lib/jquery.scrollTo.min.js"></script>
+    <script src="~/Content/admin/lib/jquery.nicescroll.js" type="text/javascript"></script>
+    <!--common script-->
+    <script src="~/Content/admin/lib/common-scripts.js"></script>
+    <SCRIPT language="JavaScript" type="text/javascript">
+        function openWin(windowURL, windowName, windowFeatures) {
+            window.open(windowURL, windowName, windowFeatures);
+        }
+    </SCRIPT>
+</body>
+</html>

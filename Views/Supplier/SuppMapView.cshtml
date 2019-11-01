@@ -1,0 +1,104 @@
+﻿@model MvcCF5.Models.Supplier
+
+
+@{
+    Layout = null;
+}
+<html>
+<head>
+    <title>Supplier Coordinates</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+        #map {
+            height: 400px;
+            width: 850px;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        var map;
+
+        function initMap() {
+            var latitude = 41.214834;
+            var longitude = 32.651611; 
+
+            var myLatLng = { lat: latitude, lng: longitude };
+
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: myLatLng,
+                zoom: 14,
+                disableDoubleClickZoom: true,
+            });
+
+            google.maps.event.addListener(map, 'click', function (event) {
+                document.getElementById('latitude').value = event.latLng.lat();
+                document.getElementById('longtitude').value = event.latLng.lng();
+            });
+
+            google.maps.event.addListener(map, 'mousemove', function (event) {
+                document.getElementById('latmoved').innerHTML = event.latLng.lat();
+                document.getElementById('longmoved').innerHTML = event.latLng.lng();
+            });
+
+            var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+            
+                title: latitude + ', ' + longitude
+            });
+
+
+            marker.addListener('click', function (event) {
+                document.getElementById('latitude').value = event.latLng.lat();
+                document.getElementById('longtitude').value = event.latLng.lng();
+            });
+
+
+            google.maps.event.addListener(map, 'dblclick', function (event) {
+                var marker = new google.maps.Marker({
+                    position: event.latLng,
+                    map: map,
+                    title: event.latLng.lat() + ', ' + event.latLng.lng()
+                });
+
+                marker.addListener('click', function () {
+                    document.getElementById('latitude').value = event.latLng.lat();
+                    document.getElementById('longtitude').value = event.latLng.lng();
+                });
+            });
+        }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXx4aEGCsJv_BedqPOehaxCjyVT9i25ls&callback=initMap"
+            async defer></script>
+    <div style="padding:10px">
+        <div id="map"></div>
+    </div>
+
+    <div id="latmoved"></div>
+    <div id="longmoved"></div>
+    <br><br>
+
+    <form class="cmxform form-horizontal style-form" id="signupForm" method="post" action="@Url.Action("SuppMapView","Supplier",new { Model.Id})">
+        <div class="form-group ">
+            <label for="latitude" class="control-label col-lg-1"><b>Enlem</b></label>
+            <div class="col-lg-2">
+                <input class="form-control text-box single-line" data-val="true" data-val-number="The field latitude must be a number." data-val-required="latitude alanı gereklidir." id="latitude" name="latitude" type="text" value="">
+            </div>
+            <label for="longtitude" class="control-label col-lg-1"><b>Boylam</b></label>
+            <div class="col-lg-2">
+                <input class="form-control text-box single-line" data-val="true" data-val-number="The field latitude must be a number." data-val-required="latitude alanı gereklidir." id="longtitude" name="longtitude" type="text" value="">
+            </div>
+        </div>
+        <button class="btn btn-theme" type="submit">Kaydet</button>
+    </form>
+   @if (null != ViewBag.Processed && (bool)ViewBag.Processed == true)
+   {
+    <script type="text/javascript">
+        window.close();
+    </script>
+   }
+</body>
+</html>

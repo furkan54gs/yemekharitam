@@ -1,0 +1,1088 @@
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\MvcCF5.dll.config
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\MvcCF5.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\MvcCF5.pdb
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\csc.exe
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\csc.exe.config
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\csc.rsp
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\csi.exe
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\csi.exe.config
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\csi.rsp
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.Managed.Core.targets
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.AppContext.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.Collections.Immutable.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.Console.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.IO.Compression.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.IO.FileSystem.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.IO.Pipes.AccessControl.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.IO.Pipes.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.Security.AccessControl.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.Security.Claims.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.Security.Cryptography.Encoding.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.Security.Cryptography.Primitives.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.Security.Principal.Windows.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.Text.Encoding.CodePages.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.ValueTuple.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.Xml.ReaderWriter.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.Xml.XmlDocument.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.Xml.XPath.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\System.Xml.XPath.XDocument.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\vbc.exe
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\vbc.exe.config
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\vbc.rsp
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\VBCSCompiler.exe
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\roslyn\VBCSCompiler.exe.config
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\Antlr3.Runtime.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\EntityFramework.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\EntityFramework.SqlServer.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\Microsoft.Web.Infrastructure.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\Newtonsoft.Json.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\System.Diagnostics.DiagnosticSource.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\System.Web.Helpers.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\System.Web.Mvc.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\System.Web.Optimization.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\System.Web.Razor.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\System.Web.WebPages.Deployment.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\System.Web.WebPages.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\System.Web.WebPages.Razor.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\WebGrease.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\EntityFramework.xml
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\EntityFramework.SqlServer.xml
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\System.Web.Helpers.xml
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\System.Web.Mvc.xml
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\System.Web.Optimization.xml
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\System.Web.Razor.xml
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\System.Web.WebPages.xml
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\System.Web.WebPages.Deployment.xml
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\System.Web.WebPages.Razor.xml
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\Newtonsoft.Json.xml
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\Antlr3.Runtime.pdb
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\System.Diagnostics.DiagnosticSource.xml
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.csproj.CoreCompileInputs.cache
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.csproj.CopyComplete
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.pdb
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\EPPlus.dll
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\bin\EPPlus.xml
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial.resources
+c:\users\furkan\source\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.csproj.GenerateResource.cache
+C:\Users\Furkan\source\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.csprojAssemblyReference.cache
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\MvcCF5.dll.config
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\MvcCF5.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\MvcCF5.pdb
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\csc.exe
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\csc.exe.config
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\csc.rsp
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\csi.exe
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\csi.exe.config
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\csi.rsp
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.AppContext.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Collections.Immutable.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Console.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.IO.Compression.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.IO.FileSystem.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.IO.Pipes.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Reflection.Metadata.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Security.AccessControl.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Security.Claims.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.ValueTuple.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Xml.XPath.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\vbc.exe
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\vbc.exe.config
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\vbc.rsp
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\VBCSCompiler.exe
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\roslyn\VBCSCompiler.exe.config
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\Antlr3.Runtime.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\EntityFramework.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\EntityFramework.SqlServer.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\EPPlus.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\Microsoft.Web.Infrastructure.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\Newtonsoft.Json.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\System.Web.Helpers.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\System.Web.Mvc.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\System.Web.Optimization.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\System.Web.Razor.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\System.Web.WebPages.Deployment.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\System.Web.WebPages.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\System.Web.WebPages.Razor.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\WebGrease.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\EntityFramework.xml
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\EntityFramework.SqlServer.xml
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\EPPlus.xml
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\System.Web.Helpers.xml
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\System.Web.Mvc.xml
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\System.Web.Optimization.xml
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\System.Web.Razor.xml
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\System.Web.WebPages.xml
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\System.Web.WebPages.Deployment.xml
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\System.Web.WebPages.Razor.xml
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\Newtonsoft.Json.xml
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\Antlr3.Runtime.pdb
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.csprojAssemblyReference.cache
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial.resources
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.csproj.GenerateResource.cache
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.csproj.CoreCompileInputs.cache
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.csproj.CopyComplete
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.dll
+D:\Dersler\Kişisel Belge\Staj\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.pdb
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\MvcCF5.dll.config
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\MvcCF5.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\MvcCF5.pdb
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\csc.exe
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\csc.exe.config
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\csc.rsp
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\csi.exe
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\csi.exe.config
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\csi.rsp
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.AppContext.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Collections.Immutable.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Console.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.IO.Compression.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.IO.FileSystem.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.IO.Pipes.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Reflection.Metadata.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Security.AccessControl.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Security.Claims.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.ValueTuple.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Xml.XPath.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\vbc.exe
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\vbc.exe.config
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\vbc.rsp
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\VBCSCompiler.exe
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\roslyn\VBCSCompiler.exe.config
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\Antlr3.Runtime.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\EntityFramework.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\EntityFramework.SqlServer.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\EPPlus.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\Microsoft.Web.Infrastructure.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\Newtonsoft.Json.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\System.Web.Helpers.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\System.Web.Mvc.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\System.Web.Optimization.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\System.Web.Razor.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\System.Web.WebPages.Deployment.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\System.Web.WebPages.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\System.Web.WebPages.Razor.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\WebGrease.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\EntityFramework.xml
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\EntityFramework.SqlServer.xml
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\EPPlus.xml
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\System.Web.Helpers.xml
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\System.Web.Mvc.xml
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\System.Web.Optimization.xml
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\System.Web.Razor.xml
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\System.Web.WebPages.xml
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\System.Web.WebPages.Deployment.xml
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\System.Web.WebPages.Razor.xml
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\Newtonsoft.Json.xml
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\Antlr3.Runtime.pdb
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.csprojAssemblyReference.cache
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.csproj.CoreCompileInputs.cache
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.csproj.CopyComplete
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.dll
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.pdb
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.Migrations.InitialCreate.resources
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.csproj.GenerateResource.cache
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial.resources
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial1.resources
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial2.resources
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial3.resources
+E:\Dersler\Kişisel Belge\staj\repos\MvcCF5\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial4.resources
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\MvcCF5.dll.config
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\MvcCF5.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\MvcCF5.pdb
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\csc.exe
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\csc.exe.config
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\csc.rsp
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\csi.exe
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\csi.exe.config
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\csi.rsp
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.AppContext.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.Console.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.IO.Compression.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.Security.Claims.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.ValueTuple.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\vbc.exe
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\vbc.exe.config
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\vbc.rsp
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\VBCSCompiler.exe
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\Antlr3.Runtime.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\EntityFramework.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\EntityFramework.SqlServer.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\EPPlus.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\Newtonsoft.Json.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\System.Web.Helpers.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\System.Web.Mvc.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\System.Web.Optimization.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\System.Web.Razor.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\System.Web.WebPages.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\System.Web.WebPages.Razor.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\WebGrease.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\EntityFramework.xml
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\EntityFramework.SqlServer.xml
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\EPPlus.xml
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\System.Web.Helpers.xml
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\System.Web.Mvc.xml
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\System.Web.Optimization.xml
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\System.Web.Razor.xml
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\System.Web.WebPages.xml
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\System.Web.WebPages.Razor.xml
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\Newtonsoft.Json.xml
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\Antlr3.Runtime.pdb
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\obj\Debug\MvcCF5.csprojAssemblyReference.cache
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\obj\Debug\MvcCF5.Migrations.InitialCreate.resources
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial.resources
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial1.resources
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial2.resources
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial3.resources
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial4.resources
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\obj\Debug\MvcCF5.csproj.GenerateResource.cache
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\obj\Debug\MvcCF5.csproj.CoreCompileInputs.cache
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\obj\Debug\MvcCF5.csproj.CopyComplete
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\obj\Debug\MvcCF5.dll
+C:\Users\Furkan\Documents\MvcCF5\MvcCF5\obj\Debug\MvcCF5.pdb
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\MvcCF5.dll.config
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\MvcCF5.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\MvcCF5.pdb
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\csc.exe
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\csc.exe.config
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\csc.rsp
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\csi.exe
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\csi.exe.config
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\csi.rsp
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.AppContext.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.Console.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.IO.Compression.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.Security.Claims.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.ValueTuple.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\vbc.exe
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\vbc.exe.config
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\vbc.rsp
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\VBCSCompiler.exe
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\Antlr3.Runtime.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\EntityFramework.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\EntityFramework.SqlServer.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\EPPlus.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\Newtonsoft.Json.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\System.Web.Helpers.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\System.Web.Mvc.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\System.Web.Optimization.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\System.Web.Razor.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\System.Web.WebPages.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\System.Web.WebPages.Razor.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\WebGrease.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\EntityFramework.xml
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\EntityFramework.SqlServer.xml
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\EPPlus.xml
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\System.Web.Helpers.xml
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\System.Web.Mvc.xml
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\System.Web.Optimization.xml
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\System.Web.Razor.xml
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\System.Web.WebPages.xml
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\System.Web.WebPages.Razor.xml
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\Newtonsoft.Json.xml
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\Antlr3.Runtime.pdb
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\obj\Debug\MvcCF5.csprojAssemblyReference.cache
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\obj\Debug\MvcCF5.Migrations.InitialCreate.resources
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial.resources
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial1.resources
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial2.resources
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial3.resources
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial4.resources
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\obj\Debug\MvcCF5.csproj.GenerateResource.cache
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\obj\Debug\MvcCF5.csproj.CoreCompileInputs.cache
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\obj\Debug\MvcCF5.csproj.CopyComplete
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\obj\Debug\MvcCF5.dll
+C:\Users\Furkan\Documents\MvcCF5x\MvcCF5\obj\Debug\MvcCF5.pdb
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\MvcCF5.dll.config
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\MvcCF5.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\MvcCF5.pdb
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\csc.exe
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\csc.exe.config
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\csc.rsp
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\csi.exe
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\csi.exe.config
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\csi.rsp
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.AppContext.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.Console.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.IO.Compression.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.Security.Claims.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.ValueTuple.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\vbc.exe
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\vbc.exe.config
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\vbc.rsp
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\VBCSCompiler.exe
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\Antlr3.Runtime.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\EntityFramework.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\EntityFramework.SqlServer.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\EPPlus.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\Newtonsoft.Json.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\System.Web.Helpers.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\System.Web.Mvc.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\System.Web.Optimization.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\System.Web.Razor.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\System.Web.WebPages.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\System.Web.WebPages.Razor.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\WebGrease.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\EntityFramework.xml
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\EntityFramework.SqlServer.xml
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\EPPlus.xml
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\System.Web.Helpers.xml
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\System.Web.Mvc.xml
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\System.Web.Optimization.xml
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\System.Web.Razor.xml
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\System.Web.WebPages.xml
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\System.Web.WebPages.Razor.xml
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\Newtonsoft.Json.xml
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\Antlr3.Runtime.pdb
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\obj\Debug\MvcCF5.csproj.CoreCompileInputs.cache
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\obj\Debug\MvcCF5.csproj.CopyComplete
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\obj\Debug\MvcCF5.dll
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\obj\Debug\MvcCF5.pdb
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial.resources
+C:\Users\Furkan\Documents\MvcCF5xy\MvcCF5\obj\Debug\MvcCF5.csproj.GenerateResource.cache
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\MvcCF5.dll.config
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\MvcCF5.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\MvcCF5.pdb
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\csc.exe
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\csc.exe.config
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\csc.rsp
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\csi.exe
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\csi.exe.config
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\csi.rsp
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.AppContext.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Collections.Immutable.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Console.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.IO.Compression.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.IO.FileSystem.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.IO.Pipes.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Reflection.Metadata.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Security.AccessControl.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Security.Claims.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.ValueTuple.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Xml.XPath.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\vbc.exe
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\vbc.exe.config
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\vbc.rsp
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\VBCSCompiler.exe
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\VBCSCompiler.exe.config
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\Antlr3.Runtime.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\EntityFramework.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\EntityFramework.SqlServer.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\EPPlus.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\Microsoft.Web.Infrastructure.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\Newtonsoft.Json.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.Helpers.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.Mvc.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.Optimization.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.Razor.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.WebPages.Deployment.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.WebPages.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.WebPages.Razor.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\WebGrease.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\EntityFramework.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\EntityFramework.SqlServer.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\EPPlus.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.Helpers.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.Mvc.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.Optimization.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.Razor.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.WebPages.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.WebPages.Deployment.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.WebPages.Razor.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\Newtonsoft.Json.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\Antlr3.Runtime.pdb
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\obj\Debug\MvcCF5.csprojAssemblyReference.cache
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial.resources
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\obj\Debug\MvcCF5.csproj.GenerateResource.cache
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\obj\Debug\MvcCF5.csproj.CoreCompileInputs.cache
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\obj\Debug\MvcCF5.csproj.CopyComplete
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\obj\Debug\MvcCF5.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-ilkdönem\MvcCF5\obj\Debug\MvcCF5.pdb
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\MvcCF5.dll.config
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\MvcCF5.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\MvcCF5.pdb
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\csc.exe
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\csc.exe.config
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\csc.rsp
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\csi.exe
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\csi.exe.config
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\csi.rsp
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.AppContext.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Console.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.IO.Compression.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Security.Claims.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.ValueTuple.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\vbc.exe
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\vbc.exe.config
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\vbc.rsp
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\VBCSCompiler.exe
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\Antlr3.Runtime.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\EntityFramework.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\EntityFramework.SqlServer.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\EPPlus.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\Newtonsoft.Json.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.Helpers.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.Mvc.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.Optimization.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.Razor.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.WebPages.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.WebPages.Razor.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\WebGrease.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\EntityFramework.xml
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\EntityFramework.SqlServer.xml
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\EPPlus.xml
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.Helpers.xml
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.Mvc.xml
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.Optimization.xml
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.Razor.xml
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.WebPages.xml
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\System.Web.WebPages.Razor.xml
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\Newtonsoft.Json.xml
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\Antlr3.Runtime.pdb
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\obj\Debug\MvcCF5.csprojAssemblyReference.cache
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial.resources
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\obj\Debug\MvcCF5.csproj.GenerateResource.cache
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\obj\Debug\MvcCF5.csproj.CoreCompileInputs.cache
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\obj\Debug\MvcCF5.csproj.CopyComplete
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\obj\Debug\MvcCF5.dll
+C:\Users\Furkan\Downloads\MvcCF5-ilkdönem\MvcCF5\obj\Debug\MvcCF5.pdb
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\MvcCF5.dll.config
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\MvcCF5.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\MvcCF5.pdb
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\csc.exe
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\csc.exe.config
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\csc.rsp
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\csi.exe
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\csi.exe.config
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\csi.rsp
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.AppContext.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Collections.Immutable.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Console.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.IO.Compression.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.IO.FileSystem.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.IO.Pipes.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Reflection.Metadata.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Security.AccessControl.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Security.Claims.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.ValueTuple.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Xml.XPath.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\vbc.exe
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\vbc.exe.config
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\vbc.rsp
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\VBCSCompiler.exe
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\VBCSCompiler.exe.config
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\Antlr3.Runtime.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\EntityFramework.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\EntityFramework.SqlServer.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\EPPlus.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\Microsoft.Web.Infrastructure.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\Newtonsoft.Json.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.Helpers.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.Mvc.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.Optimization.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.Razor.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.WebPages.Deployment.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.WebPages.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.WebPages.Razor.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\WebGrease.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\EntityFramework.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\EntityFramework.SqlServer.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\EPPlus.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.Helpers.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.Mvc.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.Optimization.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.Razor.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.WebPages.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.WebPages.Deployment.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.WebPages.Razor.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\Newtonsoft.Json.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\Antlr3.Runtime.pdb
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\obj\Debug\MvcCF5.csprojAssemblyReference.cache
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial.resources
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\obj\Debug\MvcCF5.csproj.GenerateResource.cache
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\obj\Debug\MvcCF5.csproj.CoreCompileInputs.cache
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\obj\Debug\MvcCF5.csproj.CopyComplete
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\obj\Debug\MvcCF5.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-vizesonrası\MvcCF5\obj\Debug\MvcCF5.pdb
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\MvcCF5.dll.config
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\MvcCF5.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\MvcCF5.pdb
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\csc.exe
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\csc.exe.config
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\csc.rsp
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\csi.exe
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\csi.exe.config
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\csi.rsp
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.AppContext.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Console.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.IO.Compression.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Security.Claims.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.ValueTuple.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\vbc.exe
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\vbc.exe.config
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\vbc.rsp
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\VBCSCompiler.exe
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\Antlr3.Runtime.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\EntityFramework.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\EntityFramework.SqlServer.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\EPPlus.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\Newtonsoft.Json.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.Helpers.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.Mvc.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.Optimization.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.Razor.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.WebPages.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.WebPages.Razor.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\WebGrease.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\EntityFramework.xml
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\EntityFramework.SqlServer.xml
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\EPPlus.xml
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.Helpers.xml
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.Mvc.xml
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.Optimization.xml
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.Razor.xml
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.WebPages.xml
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\System.Web.WebPages.Razor.xml
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\Newtonsoft.Json.xml
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\Antlr3.Runtime.pdb
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial.resources
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\obj\Debug\MvcCF5.csproj.GenerateResource.cache
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\obj\Debug\MvcCF5.csproj.CoreCompileInputs.cache
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\obj\Debug\MvcCF5.csproj.CopyComplete
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\obj\Debug\MvcCF5.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\obj\Debug\MvcCF5.pdb
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\obj\Debug\MvcCF5.csprojAssemblyReference.cache
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\tr\System.Web.Razor.resources.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\tr\System.Web.WebPages.resources.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\tr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Furkan\Downloads\MvcCF5-vizesonrası\MvcCF5\bin\tr\System.Web.WebPages.Razor.resources.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\MvcCF5.dll.config
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\MvcCF5.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\MvcCF5.pdb
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\csc.exe
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\csc.exe.config
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\csc.rsp
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\csi.exe
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\csi.exe.config
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\csi.rsp
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.AppContext.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.Console.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.IO.Compression.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.Security.Claims.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.ValueTuple.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\vbc.exe
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\vbc.exe.config
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\vbc.rsp
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\VBCSCompiler.exe
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\Antlr3.Runtime.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\EntityFramework.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\EntityFramework.SqlServer.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\EPPlus.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\Newtonsoft.Json.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\System.Web.Helpers.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\System.Web.Mvc.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\System.Web.Optimization.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\System.Web.Razor.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\System.Web.WebPages.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\System.Web.WebPages.Razor.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\WebGrease.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\EntityFramework.xml
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\EntityFramework.SqlServer.xml
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\EPPlus.xml
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\System.Web.Helpers.xml
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\System.Web.Mvc.xml
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\System.Web.Optimization.xml
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\System.Web.Razor.xml
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\System.Web.WebPages.xml
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\System.Web.WebPages.Razor.xml
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\Newtonsoft.Json.xml
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\Antlr3.Runtime.pdb
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\tr\System.Web.Razor.resources.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\tr\System.Web.WebPages.resources.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\tr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\bin\tr\System.Web.WebPages.Razor.resources.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial.resources
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\obj\Debug\MvcCF5.csproj.GenerateResource.cache
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\obj\Debug\MvcCF5.csproj.CoreCompileInputs.cache
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\obj\Debug\MvcCF5.csproj.CopyComplete
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\obj\Debug\MvcCF5.dll
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\obj\Debug\MvcCF5.pdb
+C:\Users\Furkan\Downloads\MvcCF5-sergi öncesi\MvcCF5\obj\Debug\MvcCF5.csprojAssemblyReference.cache
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\MvcCF5.dll.config
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\MvcCF5.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\MvcCF5.pdb
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\csc.exe
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\csc.exe.config
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\csc.rsp
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\csi.exe
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\csi.exe.config
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\csi.rsp
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.AppContext.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.Collections.Immutable.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.Console.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.IO.Compression.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.IO.FileSystem.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.IO.Pipes.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.Reflection.Metadata.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.Security.AccessControl.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.Security.Claims.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.ValueTuple.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.Xml.XPath.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\vbc.exe
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\vbc.exe.config
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\vbc.rsp
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\VBCSCompiler.exe
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\roslyn\VBCSCompiler.exe.config
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\Antlr3.Runtime.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\EntityFramework.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\EntityFramework.SqlServer.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\EPPlus.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\Microsoft.Web.Infrastructure.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\Newtonsoft.Json.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\System.Web.Helpers.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\System.Web.Mvc.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\System.Web.Optimization.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\System.Web.Razor.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\System.Web.WebPages.Deployment.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\System.Web.WebPages.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\System.Web.WebPages.Razor.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\WebGrease.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\EntityFramework.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\EntityFramework.SqlServer.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\EPPlus.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\System.Web.Helpers.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\System.Web.Mvc.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\System.Web.Optimization.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\System.Web.Razor.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\System.Web.WebPages.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\System.Web.WebPages.Deployment.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\System.Web.WebPages.Razor.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\Newtonsoft.Json.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\Antlr3.Runtime.pdb
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\tr\System.Web.Helpers.resources.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\tr\System.Web.Mvc.resources.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\tr\System.Web.Razor.resources.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\tr\System.Web.WebPages.resources.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\tr\System.Web.WebPages.Deployment.resources.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\bin\tr\System.Web.WebPages.Razor.resources.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\obj\Debug\MvcCF5.csprojAssemblyReference.cache
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\obj\Debug\MvcCF5.Migrations.Initial.resources
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\obj\Debug\MvcCF5.csproj.GenerateResource.cache
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\obj\Debug\MvcCF5.csproj.CoreCompileInputs.cache
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\obj\Debug\MvcCF5.csproj.CopyComplete
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\obj\Debug\MvcCF5.dll
+E:\Dersler\Kişisel Belge\proje\MvcCF5-son\MvcCF5\obj\Debug\MvcCF5.pdb
