@@ -69,7 +69,7 @@ namespace MvcCF5.Controllers
                 //mail
                 string to = account.Email;
                 string from = "mfurkansasmaz@gmail.com";
-                string password = "Sakarya.54";
+                string password = "xd";
                 string subject = "Kaydınız Başarılı.";
                 string body = "Son bir kaç işlemden sonra sipariş verebilirsiniz." +
                     "Ama bundan önce lütfen üye bilgileri sayfasından kişisel bilgilerinizi güncelleyiniz." +
@@ -171,7 +171,7 @@ namespace MvcCF5.Controllers
                 {
                     string to = user.Email;
                     string from = "mfurkansasmaz@gmail.com";
-                    string password = "Sakarya.54";
+                    string password = "xd";
                     string subject = "Şifre Hatırlatma";
                     string body = "Merhaba " + user.Name +
                         ". Kullanımda olan şifreniz : " +
@@ -278,7 +278,7 @@ namespace MvcCF5.Controllers
 
         public JsonResult GetSuppliers()
         {
-            // markerlar 
+            // markerlar
             //string markerImageUrl = "samedefe.com/examples/custom_marker.png";
 
             var model = db.Suppliers.ToList();
@@ -418,7 +418,7 @@ namespace MvcCF5.Controllers
             {
                 List<int> idList = db.Categories.Where(x => x.Name.Contains(search)).Select(x => x.Id).ToList();
                 var prod = new List<Product>();
-              
+
                 foreach (var item in idList)
                 {
                     prod.AddRange(db.Products.Where(x => x.CategoryId == item).ToList());
